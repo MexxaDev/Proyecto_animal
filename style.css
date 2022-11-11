@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/backdog.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 50em;
+    width: 50%;
+}
+p{
+    width: 70%;
+    line-height: 1.5em;
+}
+
+.contDatos{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3em 0em;
+}
+.contDatos--contDato_p{
+    margin: 0em 1em;
+    width: 100%;
+}
+a{
+    padding: 1em;
+    background-color: rgb(62, 170, 52);
+    border-radius: 50em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+}
